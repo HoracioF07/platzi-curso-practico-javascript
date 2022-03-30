@@ -33,10 +33,25 @@
     <section>
         <h2>Calcula el área y perímetro de un triángulo</h2>
         <form action="">
-            <label for="InputTriangulo">
-                Escribe cuánto mide cada lado de tu cuadrado:
+            <label for="InputTrianguloLado1">
+                Escribe cuánto mide un lado del triángulo:
             </label>
-            <input id="InputTriangulo" type="number" >
+            <input id="InputTrianguloLado1" type="number" >
+            <br>
+            <label for="InputTrianguloLado2">
+                Escribe cuánto mide el otro lado del triángulo:
+            </label>
+            <input id="InputTrianguloLado2" type="number" >
+            <br>
+            <label for="InputTrianguloBase">
+                Escribe cuánto mide la base del triángulo:
+            </label>
+            <input id="InputTrianguloBase" type="number">
+            <br>
+            <label for="InputTrianguloAltura">
+                Escribe cuánto mide la altura  9del triángulo:
+            </label>
+            <input id="InputTrianguloAltura" type="number">
             <button type="button" onclick="calcularPerimetroTriangulo()">
                 Calcular el perímetro
             </button>
